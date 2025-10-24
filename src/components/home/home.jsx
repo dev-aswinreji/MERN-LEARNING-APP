@@ -4,7 +4,8 @@ const Home = () => {
   return (
     <>
     <h1>Lesson Variable Declaration</h1>
-    <Link to={"/variables"}>Variables</Link>
+    <Link to={"/variables"}>Variables</Link> <br />
+    <Link to={"/functions"}>Functions</Link>
     </>
   )
 }
