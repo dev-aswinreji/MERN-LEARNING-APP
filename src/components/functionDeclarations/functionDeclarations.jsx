@@ -13,8 +13,8 @@ const FunctionDeclarations = () => {
   const { runCode, output, iframe } = useSandBox(code)
   return (
     <div style={{ padding: "20px" }}>
-      <h2>Lesson: JavaScript Variables</h2>
-      <p>Variables are used to store data values.</p>
+      <h2>Lesson: Functions</h2>
+      <p>Functions are the core concept in JS.</p>
       <MonacoEditor code={code} onChange={setCode} />
 
       <button onClick={() => runCode(code)} style={{ marginRight: "10px" }}>Run</button>
